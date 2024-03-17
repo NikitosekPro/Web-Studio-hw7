@@ -1,0 +1,64 @@
+:root {
+    --dark-main: rgb(47, 48, 58);
+    --blue-main: rgb(33, 150, 243);
+    --gray-main: rgb(245, 244, 250);
+    --white-main: rgb(255, 255, 255);
+    --gray-footer: rgba(255, 255, 255, 0.6);
+    --gray-category: rgb(117, 117, 117);
+
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.button {
+    background-color: var(--blue-main);
+    border: none;
+    width: 216px;
+    height: 50px;
+}
+
+
+
+
+.h1 {
+    background-color: var(--dark-main);
+}
+
+h1 {
+    color: var(--white-main);
+}
+
+.team {
+    background-color: var(--gray-main);
+
+}
+
+address {
+    font-style: normal;
+    
+}
+
+
+footer {
+    background-color: var(--dark-main);
+    color: var(--white-main);
+}
+
+.job {
+    color: var(--gray-category);
+}
+
+
+
+
+
+footer>address>ul>li>a {
+    color: var(--gray-footer);
+}
